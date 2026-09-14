@@ -1,0 +1,68 @@
+{
+  "schema": "LVS_GITHUB_PAGES_RELEASE_V1",
+  "generated_at": "2026-09-14T16:39:15.144402+00:00",
+  "rights_holder": "Wolfgang Netik",
+  "copyright_notice": "Copyright \u00a9 2026 Wolfgang Netik",
+  "files": [
+    {
+      "path": "DEPLOY_GITHUB_PAGES.md",
+      "sha256": "3323031de886ff1c99ef07d638c28a94b410a26be381abd143f00fc4f2e24fac",
+      "size": 2047
+    },
+    {
+      "path": "NEXT_STEP.json",
+      "sha256": "e210bd2c6d6111610634787ba47569639d3db1a67283bdae3ba9d235109a9c11",
+      "size": 633
+    },
+    {
+      "path": "RIGHTS.json",
+      "sha256": "639691a55cd612852da89c47a960a08108d9081166ec0427bbe4c37444728c86",
+      "size": 306
+    },
+    {
+      "path": "docs/.nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "docs/.well-known/lvs-capabilities.json",
+      "sha256": "13f9539e882e1b0dad592b00716fc450011747dbabd4230b3f02a175d1f6525d",
+      "size": 648
+    },
+    {
+      "path": "docs/assets/lvs-logo.png",
+      "sha256": "ec473a874660886ff433bcb432229a61458479cd165a864900f92b05dfd9135f",
+      "size": 499973
+    },
+    {
+      "path": "docs/index.html",
+      "sha256": "5f687067c57d9dd87a65850701409911138f981128e5568febcdcdbfdca1b2b2",
+      "size": 4762
+    },
+    {
+      "path": "docs/machine/capability-passport.example.json",
+      "sha256": "67c19dcf879e12fc6deb99664233cd61db35f5b2ae7e5c147703e7dbb341345e",
+      "size": 754
+    },
+    {
+      "path": "docs/machine/catalog.json",
+      "sha256": "1f9778c8351b3414039a2266057b994893d2ea6c3550a440623d66656c0cb8fb",
+      "size": 1042
+    },
+    {
+      "path": "docs/robots.txt",
+      "sha256": "ccd706e4ecac5b686e49ea6485b6670a0c5e252092d693acb4886ebecbf7635b",
+      "size": 78
+    },
+    {
+      "path": "docs/sitemap.xml",
+      "sha256": "e2201c9156e1fb8fb39e93e746f2878352a7dd350801a3fc5f711103de6cd2ed",
+      "size": 212
+    },
+    {
+      "path": "docs/styles.css",
+      "sha256": "bbc8228b30ddecbd86721abaf958bb1a2dbfd9e1c385651aa7cc0a49f2ca51eb",
+      "size": 3082
+    }
+  ]
+}

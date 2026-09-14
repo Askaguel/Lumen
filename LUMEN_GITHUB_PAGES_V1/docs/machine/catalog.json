@@ -1,0 +1,31 @@
+{
+  "schema": "LVS_MACHINE_CATALOG_V1",
+  "project": "LUMEN / LVS",
+  "site": "https://askaguel.github.io/Lumen/",
+  "rights_holder": "Wolfgang Netik",
+  "copyright_notice": "Copyright \u00a9 2026 Wolfgang Netik",
+  "status": "public-prototype",
+  "products": [
+    {
+      "entity_id": "LVS.PRODUCT.CAPABILITY_PASSPORT",
+      "name": "LVS Capability Passport",
+      "class": "SCHEMA",
+      "status": "prototype",
+      "description": "Machine-readable normalization layer for software capabilities."
+    },
+    {
+      "entity_id": "LVS.PRODUCT.EDUCT_COMPILER",
+      "name": "LVS Educt Compiler",
+      "class": "COMPILER",
+      "status": "staged",
+      "description": "Compile one canonical software educt into multiple agent-ecosystem distribution packages."
+    },
+    {
+      "entity_id": "LVS.PRODUCT.PROCUREMENT_COMPILER",
+      "name": "LVS Procurement Compiler",
+      "class": "PROCUREMENT",
+      "status": "planned",
+      "description": "Select capability kits under cost, risk, rights and quality constraints."
+    }
+  ]
+}

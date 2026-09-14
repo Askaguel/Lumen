@@ -1,0 +1,20 @@
+{
+  "project": "LUMEN / LVS",
+  "rights_holder": "Wolfgang Netik",
+  "copyright_notice": "Copyright \u00a9 2026 Wolfgang Netik",
+  "next_step": "Publish public LVS prototype through GitHub Pages",
+  "repository": "https://github.com/Askaguel/Lumen",
+  "expected_pages_url": "https://askaguel.github.io/Lumen/",
+  "pages_source": {
+    "branch": "main",
+    "folder": "/docs"
+  },
+  "after_publish": [
+    "Verify website",
+    "Verify machine catalog",
+    "Build executable Capability Passport Validator",
+    "Deploy commercial/private API runtime",
+    "AWS Marketplace onboarding",
+    "Google Cloud Marketplace onboarding"
+  ]
+}
