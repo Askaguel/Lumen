@@ -42,7 +42,7 @@ Project-originated material is marked:
 
 Third-party code and materials remain under their original licenses and rights.
 
-See [`LICENSE`](LICENSE) and [`NOTICE.md`](NOTICE.md).
+See licence file.,
 
 ## Contact
 
