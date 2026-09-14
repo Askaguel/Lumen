@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/lvs/schemas/educt.schema.json",
+  "title": "LVS Educt",
+  "type": "object",
+  "required": [
+    "entity_id",
+    "name",
+    "version",
+    "rights",
+    "capability"
+  ],
+  "properties": {
+    "entity_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "sha256": {
+      "type": "string"
+    },
+    "rights": {
+      "type": "object",
+      "required": [
+        "rights_holder",
+        "copyright_notice"
+      ],
+      "properties": {
+        "rights_holder": {
+          "type": "string"
+        },
+        "copyright_notice": {
+          "type": "string"
+        },
+        "license": {
+          "type": "string"
+        },
+        "third_party_notices": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "capability": {
+      "type": "object",
+      "required": [
+        "id",
+        "description"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "inputs": {
+          "type": "array"
+        },
+        "outputs": {
+          "type": "array"
+        }
+      }
+    },
+    "bom": {
+      "type": "array"
+    },
+    "evidence": {
+      "type": "object"
+    },
+    "distribution": {
+      "type": "object"
+    },
+    "lifecycle_state": {
+      "type": "string"
+    }
+  }
+}
