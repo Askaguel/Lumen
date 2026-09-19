@@ -1,8 +1,19 @@
-LUMEN / LVS
+# LUMEN / LVS
 
 **LUMEN Venture System (LVS)** is an AI-native capability supply-chain project.
 
 > **Compile once. Supply every agent ecosystem.**
+
+## Public prototype
+
+- [LVS website](https://askaguel.github.io/Lumen/)
+- [Machine catalog](https://askaguel.github.io/Lumen/machine/catalog.json)
+- [Capability discovery](https://askaguel.github.io/Lumen/.well-known/lvs-capabilities.json)
+- [Example capability passport](https://askaguel.github.io/Lumen/machine/capability-passport.example.json)
+
+These are static prototype documents, not a live transaction service or an
+official protocol registration. Runtime and commercial capabilities remain
+staged or planned as indicated in the individual descriptors.
 
 LVS aims to normalize a software *educt* once and make it distributable across multiple AI and agent ecosystems through machine-readable metadata, provenance, software BOMs, capability passports, evaluation data, and target-specific adapters.
 
@@ -42,7 +53,7 @@ Project-originated material is marked:
 
 Third-party code and materials remain under their original licenses and rights.
 
-See licence file.,
+See [`LICENSE`](LICENSE) and [`NOTICE.md`](NOTICE.md).
 
 ## Contact
 
