@@ -1,0 +1,30 @@
+{
+  "schema": "LVS_CAPABILITY_PASSPORT_V1",
+  "entity_id": "LVS.TOOL.CAPABILITY_PASSPORT_VALIDATOR",
+  "name": "LVS Capability Passport Validator",
+  "version": "0.1.0",
+  "rights": {
+    "rights_holder": "Wolfgang Netik",
+    "copyright_notice": "Copyright \u00a9 2026 Wolfgang Netik",
+    "third_party_notices": []
+  },
+  "capability": {
+    "id": "capability-passport-validation",
+    "description": "Validate the structure and required metadata of an LVS Capability Passport.",
+    "inputs": [
+      "capability_passport"
+    ],
+    "outputs": [
+      "validation_report"
+    ]
+  },
+  "distribution_targets": [
+    "OpenAPI",
+    "MCP",
+    "A2A",
+    "UCP-draft",
+    "AWS-planned",
+    "Google-Cloud-planned"
+  ],
+  "lifecycle_state": "PROTOTYPE"
+}
