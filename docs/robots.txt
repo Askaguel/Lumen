@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://askaguel.github.io/Lumen/sitemap.xml
