@@ -1,0 +1,22 @@
+{
+  "schema": "LVS_CAPABILITY_DISCOVERY_V1",
+  "site": "https://askaguel.github.io/Lumen/",
+  "rights_holder": "Wolfgang Netik",
+  "copyright_notice": "Copyright \u00a9 2026 Wolfgang Netik",
+  "capabilities": [
+    {
+      "id": "lvs.capability.passport",
+      "status": "prototype",
+      "descriptor": "https://askaguel.github.io/Lumen/machine/capability-passport.example.json"
+    },
+    {
+      "id": "lvs.educt.compile",
+      "status": "staged"
+    },
+    {
+      "id": "lvs.procurement.compile",
+      "status": "planned"
+    }
+  ],
+  "note": "Prototype discovery document. It is not an official UCP registration or transaction endpoint."
+}
