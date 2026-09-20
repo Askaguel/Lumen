@@ -1,0 +1,25 @@
+{
+  "schema": "LVS_PUBLIC_PROJECT_STATUS_V1",
+  "updated_at": "2026-09-20",
+  "project": "Lumen Venture System",
+  "status_update": "V30",
+  "public_release_version": null,
+  "public_maturity": "EARLY_SPECIFICATION_AND_PROTOTYPE",
+  "private_candidate": {"version": "0.3.0", "distributed_here": false},
+  "products": {
+    "capability_passport": "PROTOTYPE",
+    "educt_compiler": "STAGED",
+    "procurement_compiler": "PLANNED",
+    "vsf": "RESEARCH_LOCAL_REFERENCE_PROTOTYPE",
+    "commercial_runtime": "STAGED_NOT_PUBLIC",
+    "mefo": "RESEARCH_STAGED_COOPERATION_CONCEPT"
+  },
+  "independent_verification": "PENDING",
+  "token_savings": null,
+  "transaction_endpoint_available": false,
+  "human_information_site": "https://sites.google.com/view/lumenventuresystem",
+  "technical_site": "https://askaguel.github.io/Lumen/",
+  "repository": "https://github.com/Askaguel/Lumen",
+  "rights_holder": "Wolfgang Netik",
+  "license_changed": false
+}

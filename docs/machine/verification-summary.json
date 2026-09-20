@@ -1,0 +1,27 @@
+{
+  "schema": "LVS_PUBLIC_VERIFICATION_SUMMARY_V1",
+  "recorded_at": "2026-09-20",
+  "scope": "SANITIZED_LOCAL_CHECKPOINT_SUMMARY_NOT_CERTIFICATION",
+  "checkpoint": "V29",
+  "local_tests": {"passed": 46, "failed": 0, "independent": false, "publicly_reproducible_from_this_repo": false},
+  "restore_check": "SAME_HOST_EXISTING_DEPENDENCIES",
+  "independent_reproduction": "PENDING",
+  "vsf": {"canonical_bytes": 744, "sha256": "505a0b25f5a816a54304df6e95e5aa022464af9699bcb6c0d752001531f1dc4a", "scope": "LOCAL_REFERENCE_ROUND_TRIP", "live_resolver": false},
+  "benchmark": {
+    "tasks_per_provider": 12,
+    "provider_count": 3,
+    "first_pass_accepted": {"gemini": 12, "copilot": 0, "meta_ai": 0},
+    "retry_count": {"gemini": 0, "copilot": 1, "meta_ai": 1},
+    "final_accepted": 36,
+    "final_total": 36,
+    "all_attempts_accepted": 36,
+    "all_attempts_total": 60,
+    "all_attempt_acceptance_rate": 0.6,
+    "scope": "EXACT_MATCH_ON_SIMPLE_SYNTHETIC_CORPUS_ONLY"
+  },
+  "exact_tokens": null,
+  "token_savings_percent": null,
+  "independent_chatgpt_baseline": false,
+  "legal_compliance_certified": false,
+  "production_readiness_proven": false
+}
