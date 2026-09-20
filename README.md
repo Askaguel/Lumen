@@ -4,8 +4,33 @@
 
 > **Compile once. Supply every agent ecosystem.**
 
+## Evidence/status update — 2026-09-20
+
+This is a documentation/status update, not a public runtime release. The private
+0.3.0 candidate is **not** distributed here; public release numbering is separate.
+
+| Component | Public maturity |
+| --- | --- |
+| Capability Passport | Prototype |
+| Educt Compiler | Staged |
+| Procurement Compiler | Planned |
+| VSF | Research / local reference prototype |
+| Commercial runtime | Staged, not public |
+| MEFO (Mutual Exchange for Operations) | Research / staged cooperation concept |
+
+The V29 local checkpoint reports **46 passing local tests**. Independent external
+reproduction remains pending. A small synthetic multi-model experiment reached
+36/36 accepted task instances after bounded retries, but only 36/60 across all
+attempts. This does not establish general accuracy, token savings, or production
+readiness. See [verification status](docs/verification-status.md),
+[experiment limitations](docs/multimodel-experiment.md), and [VSF](docs/vsf.md).
+
+Machine-readable: [project status](docs/machine/project-status.json) and
+[verification summary](docs/machine/verification-summary.json).
+
 ## Public prototype
 
+- [Human-facing information site](https://sites.google.com/view/lumenventuresystem)
 - [LVS website](https://askaguel.github.io/Lumen/)
 - [Machine catalog](https://askaguel.github.io/Lumen/machine/catalog.json)
 - [Capability discovery](https://askaguel.github.io/Lumen/.well-known/lvs-capabilities.json)
