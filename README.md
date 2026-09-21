@@ -1,3 +1,26 @@
+## LVS.AI_NEXUS V0.1 — status 2026-09-21
+
+**PARTIAL — FIRST_EXTERNAL_AGENT_NEXUS_LOOP: BLOCKED / NOT VERIFIED.**
+
+The local prototype passed 26/26 software tests. A deterministic synthetic
+two-role loop produced a persistent checkpoint. Task validation, routing,
+governance checks and checkpoints are implemented locally. These tests use
+test doubles, not real AI calls; they are not independent external verification.
+
+Remaining prerequisites: authorized API access and a concrete model, hard
+pre-call live-budget enforcement, and complete Slack integration with delivery
+evidence. The OpenAI adapter has not been verified live. Anthropic/Gemini
+connections follow only after the first successful live loop.
+
+Next: finish budget enforcement, configure authorized access locally, then test
+a real Agent A to Agent B verification loop. No browser-chat API substitute and
+no promotion of synthetic results to verified external capability.
+
+This is a status summary only, not a source-code/runtime release. Private code,
+credentials and raw test logs are not published with this update.
+
+---
+
 # LUMEN / LVS
 
 **LUMEN Venture System (LVS)** is an AI-native capability supply-chain project.
